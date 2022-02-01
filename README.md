@@ -14,6 +14,9 @@ The web client is based on ReactJS library, and use Taquito as wallet library. I
 - List the market tokens
 
 ## Run the application
+### Tezos wallet configuration
+The smart contracts are deployed on Hangzhou network, so the web interface must use the accounts of thie network. You will need to have a wallet installed in the browser. For my tests I'm using [Temple](https://templewallet.com/) wallet.
+
 ### Dev mode
 To run the web app in dev mode:
 ```bash
@@ -21,7 +24,6 @@ npm i
 npm start
 ```
 
-You will need to have a wallet installed in the browser. For my tests I'm used [Temple](https://templewallet.com/) wallet.
 
 
 
